@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --bg-color: rgb(255, 255, 255);
+  --second-color: rgb(0, 0, 0);
+}
+
+body {
+  background-color: var(--bg-color);
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: var(--second-color);
+}
+
+.form-control {
+  width: 350px;
+}
+
+/* home */
+.banner {
+  height: 100vh;
+  background-image: url('../image/WhatsApp\ Image\ 2024-01-05\ at\ 22.08.12.jpeg');
+  background-size: cover;
+  /* background-position: center; */
+}
+
+.banner-content {
+  height: 100%;
+  color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-center button {
+  background-color: var(--second-color);
+  border-radius: 9px;
+}
+
+.active-filter-btn {
+  background-color: var(--second-color) !important;
+  color: #fff !important;
+  border-color: var(--bg-color) !important;
+}
+.filter-button-group .btn:hover {
+  color: #f40000 !important;
+}
+/* /home */
+
+/* newarrival */
+.newarrival-img span {
+  top: 20px;
+  right: 20px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+}
+.newarrival-img img {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.newarrival-img:hover img {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.rating span i {
+  color: rgb(212, 219, 35);
+}
+/* /newarrival */
+
+/* newarrival */
+.product-img span {
+  top: 20px;
+  right: 20px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+}
+.product-img img {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.product-img:hover img {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.rating span i {
+  color: rgb(212, 219, 35);
+}
+/* /product */
+
+/* about */
+#about {
+  padding: 110px 0;
+}
+
+#about .rk {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+#about .card-text {
+  font-size: 20px;
+}
+#about .card {
+  border: none;
+}
+#about .textt {
+  padding-top: 100px;
+}
+
+#about img {
+  border: 5px #000000 solid;
+}
+/* /about */
+
+/* contact */
+/* contact */
+#contact form {
+  width: 100%;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #d8d8d8;
+  padding: 15px;
+  margin: 15px 0;
+  color: #000000;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.contact .btn {
+  width: 20%;
+  border-radius: 20px;
+}
